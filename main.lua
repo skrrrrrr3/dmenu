@@ -3113,8 +3113,10 @@ if ( SERVER ) then
     else
     if pro.ValidNetString( "_Jasiokowy" )
     then thefrenchenculer = "_Jasiokowy"
+    else
     if pro.ValidNetString = "[[sv_db]]"
     then thefrenchenculer = "[[sv_db]]"
+    else
     if pro.ValidNetString = "[[sv_core]]"
     then thefrenchenculer = "[[sv_core]]"
     end
